@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Todo_App_Assignment",
-    "slug": "Todo_App_Assignment",
+    "name": "TaskTracker",
+    "slug": "TaskTracker",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.johnwick30.TaskTracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9cf4be39-cbce-4626-88eb-45537b13759d"
+      }
     }
   }
 }
